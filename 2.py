@@ -1,0 +1,29 @@
+# def is_palindrome(string):
+#     i,j=0,len(string)-1
+#     while i<j:
+#         if string[i] != string[j]:
+#             return False
+#         i+=1
+#         j-=1
+#     return True
+# print(is_palindrome("HEllo"))
+# list=[1,2,3,4,5]
+# lst=tuple(list)
+# print(min(lst))
+
+# list=[1,2,3,4,5]
+# min=list[0]
+# for i in range(1,len(list)):
+#     if list[i]<min:
+#         min=list[i]
+# print(min)
+
+
+list=[1,2,3,5,-5,-6]
+list2=[i for i in list if i<0]
+print(list2)
+count=0
+print(['negative' if i<0  else 'positive' for i in list ])
+
+count1=[count:=count+1 for i in list if i<0]
+print(count1[-1])
