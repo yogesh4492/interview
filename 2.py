@@ -35,12 +35,12 @@
 # ans=reduce(add,list)
 # print(ans)
 
-lst=[1,234,56,56,76,98]
-def add(num1):
-    return num1+10
+# lst=[1,234,56,56,76,98]
+# def add(num1):
+#     return num1+10
 
-lst_sum=tuple(map(add,lst))
-print(lst_sum)
+# lst_sum=tuple(map(add,lst))
+# print(lst_sum)
 
 
 # lst=[1,2,3,4,-5]
@@ -50,3 +50,11 @@ print(lst_sum)
 #        return num1
 # lst2=list(filter(find,lst))
 # print(lst2)
+
+a=56
+b=98
+while b!=0:
+    c=b
+    b=a%b
+    a=c
+print(a)
