@@ -1,0 +1,1125 @@
+  ---
+
+### **Conditional Statements Practical Questions**
+
+1. **Write a Python program to check whether a given number is even or odd.**
+   - Input: `4`
+   - Output: `Even`
+
+2. **Write a Python function that takes an integer as input and prints whether the number is positive, negative, or zero.**
+   - Input: `-5`
+   - Output: `Negative`
+
+3. **Write a Python program to find the largest of three numbers using `if`, `elif`, and `else` statements.**
+   - Input: `a = 10, b = 20, c = 15`
+   - Output: `20`
+
+4. **Write a Python program that checks if a given year is a leap year.**
+   - Input: `2020`
+   - Output: `Leap Year`
+
+5. **Write a Python program to check if a given number is divisible by both 5 and 10.**
+   - Input: `50`
+   - Output: `Divisible by both 5 and 10`
+
+6. **Write a Python function that checks whether a given string is a palindrome.**
+   - Input: `'madam'`
+   - Output: `Palindrome`
+
+7. **Write a Python program to find the grade of a student based on marks using `if`-`elif`-`else`.**
+   - Input: `marks = 85`
+   - Output: `Grade A`
+
+8. **Write a Python program that checks if a number is within a specified range (inclusive).**
+   - Input: `5`, `min=1`, `max=10`
+   - Output: `In range`
+
+9. **Write a Python program to check if a character is a vowel or a consonant.**
+   - Input: `'a'`
+   - Output: `Vowel`
+
+10. **Write a Python program to print whether a number is prime or not.**
+    - Input: `7`
+    - Output: `Prime`
+
+---
+
+### **Looping Statements Practical Questions**
+
+11. **Write a Python program to print all the even numbers from 1 to 100 using a `for` loop.**
+    - Output: `2 4 6 8 ... 100`
+
+12. **Write a Python program that finds the sum of all numbers from 1 to `n` (inclusive), where `n` is given by the user.**
+    - Input: `n = 5`
+    - Output: `15` (since 1 + 2 + 3 + 4 + 5 = 15)
+
+13. **Write a Python program to print the multiplication table of a given number using a `for` loop.**
+    - Input: `number = 3`
+    - Output:
+      ```
+      3 x 1 = 3
+      3 x 2 = 6
+      3 x 3 = 9
+      ...
+      ```
+
+14. **Write a Python program to print the factorial of a given number using a `while` loop.**
+    - Input: `5`
+    - Output: `120` (since 5! = 5 * 4 * 3 * 2 * 1)
+
+15. **Write a Python program to print the Fibonacci sequence up to a given number `n` using a `while` loop.**
+    - Input: `n = 10`
+    - Output: `0 1 1 2 3 5 8`
+
+16. **Write a Python program that prints all the prime numbers from 1 to `n` using a `for` loop.**
+    - Input: `n = 20`
+    - Output: `2 3 5 7 11 13 17 19`
+
+17. **Write a Python program that counts the number of vowels in a string using a `for` loop.**
+    - Input: `'hello world'`
+    - Output: `3` (the vowels are 'e', 'o', 'o')
+
+18. **Write a Python program to find the greatest common divisor (GCD) of two numbers using a `while` loop.**
+    - Input: `a = 56`, `b = 98`
+    - Output: `14`
+
+19. **Write a Python program to print the first `n` natural numbers in reverse order using a `while` loop.**
+    - Input: `n = 5`
+    - Output: `5 4 3 2 1`
+
+20. **Write a Python program that takes a list of numbers and prints each number doubled using a `for` loop.**
+    - Input: `[1, 2, 3, 4]`
+    - Output: `2 4 6 8`
+
+---
+
+### **Advanced Conditional and Looping Questions**
+
+21. **Write a Python program to find all the perfect numbers between 1 and 1000.**
+    - A perfect number is a number that is equal to the sum of its proper divisors.
+    - Output: `6 28 496`
+
+22. **Write a Python program to calculate the sum of digits of a number using a `while` loop.**
+    - Input: `n = 123`
+    - Output: `6` (1 + 2 + 3 = 6)
+
+23. **Write a Python program to find the sum of squares of all odd numbers between 1 and `n` using a `for` loop.**
+    - Input: `n = 10`
+    - Output: `1 + 9 + 25 + 49 + 81 = 165`
+
+24. **Write a Python program to create a dictionary where the keys are numbers from 1 to `n`, and the values are their squares.**
+    - Input: `n = 5`
+    - Output: `{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}`
+
+25. **Write a Python program to remove all duplicates from a list using a `for` loop.**
+    - Input: `[1, 2, 2, 3, 4, 4]`
+    - Output: `[1, 2, 3, 4]`
+
+26. **Write a Python program to check if a number is a power of 2 using a `while` loop.**
+    - Input: `n = 16`
+    - Output: `True`
+
+27. **Write a Python program to print the `n`th Fibonacci number using a `for` loop.**
+    - Input: `n = 6`
+    - Output: `8`
+
+28. **Write a Python program to count the occurrences of a specific character in a string using a `for` loop.**
+    - Input: `'hello world'`, character: `'o'`
+    - Output: `2`
+
+29. **Write a Python program that prints a multiplication table in the form of a matrix for numbers 1 through `n`.**
+    - Input: `n = 3`
+    - Output:
+      ```
+      1 2 3
+      2 4 6
+      3 6 9
+      ```
+
+30. **Write a Python program that finds the sum of the first `n` odd numbers using a `while` loop.**
+    - Input: `n = 5`
+    - Output: `25` (1 + 3 + 5 + 7 + 9 = 25)
+
+---
+
+### **Bonus Challenges (Advanced Conditional & Looping)**
+
+31. **Write a Python program that checks if a number is a palindrome using a `for` loop.**
+    - Input: `121`
+    - Output: `Palindrome`
+
+32. **Write a Python program to create a pattern of stars (`*`) in the shape of a right-angled triangle using a `for` loop.**
+    - Output:
+      ```
+      *
+      **
+      ***
+      ****
+      ```
+
+33. **Write a Python program to generate a list of the first `n` Fibonacci numbers using a `while` loop.**
+    - Input: `n = 6`
+    - Output: `[0, 1, 1, 2, 3, 5]`
+
+34. **Write a Python program to reverse the digits of a number using a `while` loop.**
+    - Input: `12345`
+    - Output: `54321`
+
+35. **Write a Python program to generate a multiplication table for numbers from `1` to `n` using nested loops.**
+    - Input: `n = 3`
+    - Output:
+      ```
+      1 2 3
+      2 4 6
+      3 6 9
+      ```
+
+===============================================================================================================
+Here are more **practical interview questions** focusing on **strings in Python**. These questions test your understanding of various string operations, manipulations, and methods in Python.
+
+---
+
+### **Basic String Operations**
+
+1. **Write a Python program to count the number of vowels in a given string.**
+   - Input: `'hello world'`
+   - Output: `3` (vowels are 'e', 'o', 'o')
+
+2. **Write a Python function to reverse a string without using Python's built-in functions.**
+   - Input: `'python'`
+   - Output: `'nohtyp'`
+
+3. **Write a Python program to check whether a given string is a palindrome.**
+   - Input: `'madam'`
+   - Output: `True`
+
+4. **Write a Python program to remove all spaces from a string.**
+   - Input: `' hello world '`
+   - Output: `'helloworld'`
+
+5. **Write a Python program to find the position of the first occurrence of a substring in a string.**
+   - Input: `'hello world'`, Substring: `'world'`
+   - Output: `6`
+
+6. **Write a Python program to check if a given string contains only digits.**
+   - Input: `'12345'`
+   - Output: `True`
+
+7. **Write a Python program to find the length of a string without using `len()`.**
+   - Input: `'hello'`
+   - Output: `5`
+
+8. **Write a Python program to convert a string to uppercase.**
+   - Input: `'hello'`
+   - Output: `'HELLO'`
+
+9. **Write a Python program to check if a string contains only alphabetic characters.**
+   - Input: `'hello'`
+   - Output: `True`
+
+10. **Write a Python program to find the index of the last occurrence of a character in a string.**
+    - Input: `'hello world'`, Character: `'o'`
+    - Output: `7`
+
+---
+
+### **Intermediate String Manipulation**
+
+11. **Write a Python program to split a string into a list of words.**
+    - Input: `'Python is fun'`
+    - Output: `['Python', 'is', 'fun']`
+
+12. **Write a Python program to join a list of strings into a single string with a space separator.**
+    - Input: `['Python', 'is', 'awesome']`
+    - Output: `'Python is awesome'`
+
+13. **Write a Python program to replace all occurrences of a substring with another substring.**
+    - Input: `'hello world'`, Replace `'world'` with `'Python'`
+    - Output: `'hello Python'`
+
+14. **Write a Python program to check if a string starts with a specific prefix.**
+    - Input: `'hello world'`, Prefix: `'hello'`
+    - Output: `True`
+
+15. **Write a Python program to check if a string ends with a specific suffix.**
+    - Input: `'hello world'`, Suffix: `'world'`
+    - Output: `True`
+
+16. **Write a Python program to remove all punctuation from a string.**
+    - Input: `'Hello, world!'`
+    - Output: `'Hello world'`
+
+17. **Write a Python program to find all occurrences of a substring in a string.**
+    - Input: `'hello hello world hello'`, Substring: `'hello'`
+    - Output: `[0, 6, 18]`
+
+18. **Write a Python program to extract a substring from a string given start and end indices.**
+    - Input: `'hello world'`, Start index: `0`, End index: `5`
+    - Output: `'hello'`
+
+19. **Write a Python program to find the number of times a character appears in a string.**
+    - Input: `'hello world'`, Character: `'o'`
+    - Output: `2`
+
+20. **Write a Python program to remove all leading and trailing whitespaces from a string.**
+    - Input: `'   hello world   '`
+    - Output: `'hello world'`
+
+---
+
+### **Advanced String Operations**
+
+21. **Write a Python program to check if a string is an anagram of another string.**
+    - Input: `'listen'`, `'silent'`
+    - Output: `True`
+
+22. **Write a Python program to convert a string into a list of characters.**
+    - Input: `'hello'`
+    - Output: `['h', 'e', 'l', 'l', 'o']`
+
+23. **Write a Python program to find the longest word in a string.**
+    - Input: `'The quick brown fox jumps over the lazy dog'`
+    - Output: `'jumps'`
+
+24. **Write a Python program to count the frequency of each character in a string.**
+    - Input: `'hello world'`
+    - Output: `{'h': 1, 'e': 1, 'l': 3, 'o': 2, ' ': 1, 'w': 1, 'r': 1, 'd': 1}`
+
+25. **Write a Python program to reverse each word in a sentence without reversing the entire sentence.**
+    - Input: `'hello world'`
+    - Output: `'olleh dlrow'`
+
+26. **Write a Python program to check if a string contains only whitespace characters.**
+    - Input: `'    '`
+    - Output: `True`
+
+27. **Write a Python program to remove duplicate characters from a string.**
+    - Input: `'hello world'`
+    - Output: `'helo wrd'`
+
+28. **Write a Python program to capitalize the first letter of each word in a string.**
+    - Input: `'hello world'`
+    - Output: `'Hello World'`
+
+29. **Write a Python program to find the number of words in a string.**
+    - Input: `'Python is awesome'`
+    - Output: `3`
+
+30. **Write a Python program to format a string by embedding values using placeholders (like `%` or `.format()`).**
+    - Input: `name = 'John', age = 30`
+    - Output: `'My name is John and I am 30 years old.'`
+
+---
+
+### **String Matching and Pattern Search**
+
+31. **Write a Python program to check if a string contains a number using regular expressions.**
+    - Input: `'hello123'`
+    - Output: `True`
+
+32. **Write a Python program to check if a string contains only uppercase letters.**
+    - Input: `'HELLO'`
+    - Output: `True`
+
+33. **Write a Python program to remove all non-alphabetical characters from a string using regular expressions.**
+    - Input: `'Hello123!@#World'`
+    - Output: `'HelloWorld'`
+
+34. **Write a Python program to check if a string matches a specific pattern (e.g., email address format).**
+    - Input: `'test@example.com'`
+    - Output: `True`
+
+35. **Write a Python program to split a string into chunks of `n` characters.**
+    - Input: `'abcdefghijk'`, `n = 3`
+    - Output: `['abc', 'def', 'ghi', 'jk']`
+
+36. **Write a Python program to find and print all words that start with a specific letter from a given string.**
+    - Input: `'The quick brown fox jumps'`, Letter: `'b'`
+    - Output: `['brown']`
+
+37. **Write a Python program to search for a substring in a string using regular expressions.**
+    - Input: `'hello world'`, Substring: `'world'`
+    - Output: `Match found`
+
+38. **Write a Python program to check if a string contains only alphabets and spaces.**
+    - Input: `'Hello World'`
+    - Output: `True`
+
+39. **Write a Python program to find all the numbers in a string using regular expressions.**
+    - Input: `'I have 2 apples and 3 oranges.'`
+    - Output: `[2, 3]`
+
+40. **Write a Python program to extract all email addresses from a string using regular expressions.**
+    - Input: `'Contact us at info@example.com or support@abc.com.'`
+    - Output: `['info@example.com', 'support@abc.com']`
+
+---
+======================================================================================================
+Here are more **interview practical questions** in Python that combine **strings**, **collections**, and **conditionals**. These questions are designed to test your ability to manipulate and process data from multiple perspectives, mixing different concepts.
+
+---
+
+### **Mixed Questions: String, Collection, and Conditionals**
+
+#### **String and Collection Questions**
+
+1. **Write a Python program to find the most frequent character in a string.**
+   - Input: `'abcaabcaabc'`
+   - Output: `'a'` (appears 5 times)
+
+2. **Write a Python program to remove all duplicate characters from a string and return the result as a new string.**
+   - Input: `'hello world'`
+   - Output: `'helo wrd'`
+
+3. **Write a Python program to count the number of words that start with a vowel in a given sentence.**
+   - Input: `'An apple a day keeps the doctor away'`
+   - Output: `4` (words: 'An', 'apple', 'a', 'away')
+
+4. **Write a Python program that takes a string and returns the frequency of each character in the string using a dictionary.**
+   - Input: `'mississippi'`
+   - Output: `{'m': 1, 'i': 4, 's': 4, 'p': 2}`
+
+5. **Write a Python program to find all unique words in a string and count their occurrences.**
+   - Input: `'hello world hello python world python'`
+   - Output: `{'hello': 2, 'world': 2, 'python': 2}`
+
+6. **Write a Python program that finds the longest word in a string of words and returns its length.**
+   - Input: `'The quick brown fox jumps over the lazy dog'`
+   - Output: `5` (longest word: `'quick'`)
+
+7. **Write a Python program to merge two lists of strings into a single string, where each string is the result of concatenating the corresponding elements of both lists.**
+   - Input: `['hello', 'python']`, `['world', 'rocks']`
+   - Output: `['helloworld', 'pythonrocks']`
+
+8. **Write a Python program to find all the substrings of a given string that are palindromes.**
+   - Input: `'ababa'`
+   - Output: `['a', 'b', 'aba', 'ababa', 'baab']`
+
+9. **Write a Python program to find the sum of all digits in a string.**
+   - Input: `'hello123world45'`
+   - Output: `15` (sum of digits: 1 + 2 + 3 + 4 + 5 = 15)
+
+10. **Write a Python program that checks if two strings are anagrams of each other.**
+    - Input: `'listen'`, `'silent'`
+    - Output: `True`
+
+---
+
+#### **String and Conditional Statements**
+
+11. **Write a Python program to check if a string contains any digits.**
+    - Input: `'hello123'`
+    - Output: `True`
+
+12. **Write a Python program to check if a string is a valid email address (basic validation).**
+    - Input: `'test@example.com'`
+    - Output: `True`
+
+13. **Write a Python program that removes any substring that is longer than 3 characters from a string.**
+    - Input: `'hello world from python'`
+    - Output: `'hello from'`
+
+14. **Write a Python program to check if a string starts and ends with the same character.**
+    - Input: `'racecar'`
+    - Output: `True`
+
+15. **Write a Python program to count how many times the letter "a" appears in a string, but only if the string length is greater than 5.**
+    - Input: `'banana'`
+    - Output: `3` (since the length of `'banana'` is 6, it counts the 'a's)
+
+16. **Write a Python program to convert a string to an integer, but if the conversion fails, return a default value of 0.**
+    - Input: `'123'`
+    - Output: `123`
+
+17. **Write a Python program to check if a string is a valid number (integer or float).**
+    - Input: `'123.45'`
+    - Output: `True`
+
+18. **Write a Python program to check if a string is a valid palindrome ignoring spaces and case sensitivity.**
+    - Input: `'A man a plan a canal Panama'`
+    - Output: `True`
+
+19. **Write a Python program to check if a given string is a valid phone number (e.g., format: (123) 456-7890).**
+    - Input: `'(123) 456-7890'`
+    - Output: `True`
+
+20. **Write a Python program to replace all occurrences of a word in a string, but only if the word appears more than twice.**
+    - Input: `'hello hello world hello'`, Replace `'hello'` with `'hi'`
+    - Output: `'hi hi world hi'` (since `'hello'` appears 3 times)
+
+---
+
+#### **Collection and Conditional Statements**
+
+21. **Write a Python program to remove all items from a list that are less than 5.**
+    - Input: `[1, 3, 5, 7, 9, 2, 8]`
+    - Output: `[5, 7, 9, 8]`
+
+22. **Write a Python program to merge two lists and remove any duplicates.**
+    - Input: `[1, 2, 3, 4]`, `[3, 4, 5, 6]`
+    - Output: `[1, 2, 3, 4, 5, 6]`
+
+23. **Write a Python program to filter out all even numbers from a list of integers.**
+    - Input: `[1, 2, 3, 4, 5, 6, 7, 8]`
+    - Output: `[1, 3, 5, 7]`
+
+24. **Write a Python program to create a list of numbers from 1 to 10 and print the sum of all even numbers in the list.**
+    - Output: `30` (2 + 4 + 6 + 8 + 10 = 30)
+
+25. **Write a Python program to find the common elements between two lists.**
+    - Input: `[1, 2, 3, 4]`, `[3, 4, 5, 6]`
+    - Output: `[3, 4]`
+
+26. **Write a Python program to find the intersection of two sets and return a list of those common elements.**
+    - Input: `{1, 2, 3, 4}`, `{3, 4, 5, 6}`
+    - Output: `[3, 4]`
+
+27. **Write a Python program to sort a list of strings by their length.**
+    - Input: `['apple', 'banana', 'kiwi', 'orange']`
+    - Output: `['kiwi', 'apple', 'orange', 'banana']`
+
+28. **Write a Python program to remove all even numbers from a dictionary's values (where the values are lists of numbers).**
+    - Input: `{'a': [1, 2, 3, 4], 'b': [5, 6, 7, 8]}`
+    - Output: `{'a': [1, 3], 'b': [5, 7]}`
+
+29. **Write a Python program that combines two dictionaries by adding values for common keys.**
+    - Input: `{'a': 1, 'b': 2}`, `{'b': 3, 'c': 4}`
+    - Output: `{'a': 1, 'b': 5, 'c': 4}`
+
+30. **Write a Python program to create a list of numbers that are divisible by both 2 and 3 from a given list of numbers.**
+    - Input: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]`
+    - Output: `[6, 12]`
+
+---
+
+#### **Combination of String, Collection, and Conditionals**
+
+31. **Write a Python program that checks if the frequency of each character in a string is even. If any character has an odd frequency, print 'Not Even' else print 'All Even'.**
+    - Input: `'aabbccdd'`
+    - Output: `'All Even'`
+
+32. **Write a Python program that checks if all elements of a list are strings and contain only alphabetical characters.**
+    - Input: `['hello', 'world', '123']`
+    - Output: `False`
+
+33. **Write a Python program to combine two dictionaries by adding values for common keys and keeping values from both for unique keys.**
+    - Input: `{'a': 1, 'b': 2}`, `{'b': 3, 'c': 4}`
+    - Output: `{'a': 1, 'b': 5, 'c': 4}`
+
+34. **Write a Python program to check if a list of strings is a valid list of email addresses.**
+    - Input: `['test@example.com', 'invalid@.com']`
+    - Output: `False`
+
+35. **Write a Python program to remove
+
+all strings from a list that contain digits.**
+    - Input: `['hello', 'world123', 'abc456', 'python']`
+    - Output: `['hello', 'python']`
+
+=====================================================================================================
+=====================================================================================================
+   
+Here is a list of practical Python function-related interview questions 
+---
+
+1. **Write a Python function that accepts a number and returns whether it is prime or not.**
+    - Input: `7`
+    - Output: `'Prime'`
+
+2. **Write a Python function that takes a string as input and returns the number of vowels in it.**
+    - Input: `'hello world'`
+    - Output: `3`
+
+3. **Write a Python function that accepts two numbers and returns their greatest common divisor (GCD).**
+    - Input: `24, 36`
+    - Output: `12`
+
+4. **Write a Python function that accepts a list of numbers and returns a new list with only the even numbers from the original list.**
+    - Input: `[1, 2, 3, 4, 5, 6]`
+    - Output: `[2, 4, 6]`
+
+5. **Write a Python function that accepts a list of strings and returns a new list containing the strings that are palindromes.**
+    - Input: `['level', 'world', 'madam', 'python']`
+    - Output: `['level', 'madam']`
+
+6. **Write a Python function that takes a string and returns the string with all the characters reversed.**
+    - Input: `'Python'`
+    - Output: `'nohtyP'`
+
+7. **Write a Python function that accepts a number and returns the Fibonacci sequence up to that number.**
+    - Input: `8`
+    - Output: `[0, 1, 1, 2, 3, 5, 8]`
+
+8. **Write a Python function that accepts a number and returns the factorial of that number.**
+    - Input: `5`
+    - Output: `120`
+
+9. **Write a Python function that takes a list of numbers and returns a tuple containing the sum and product of all the numbers.**
+    - Input: `[1, 2, 3, 4]`
+    - Output: `(10, 24)`
+
+10. **Write a Python function that checks whether a given string is a valid phone number (format: (xxx) xxx-xxxx).**
+    - Input: `'(123) 456-7890'`
+    - Output: `True`
+
+11. **Write a Python function that returns a dictionary with each character as a key and the number of occurrences as the value.**
+    - Input: `'apple'`
+    - Output: `{'a': 1, 'p': 2, 'l': 1, 'e': 1}`
+
+12. **Write a Python function that accepts a list of numbers and returns the smallest and largest numbers in the list.**
+    - Input: `[5, 3, 9, 1, 7]`
+    - Output: `(1, 9)`
+
+13. **Write a Python function that takes a string and returns it with the first and last characters swapped.**
+    - Input: `'Python'`
+    - Output: `'nPytho'`
+
+14. **Write a Python function that accepts a list of numbers and returns the sum of the numbers in the list that are divisible by 3.**
+    - Input: `[1, 3, 4, 6, 9]`
+    - Output: `18`
+
+15. **Write a Python function that accepts a list of strings and returns the longest string.**
+    - Input: `['apple', 'banana', 'cherry']`
+    - Output: `'banana'`
+
+16. **Write a Python function that accepts a list of integers and returns a new list with each element squared.**
+    - Input: `[1, 2, 3, 4]`
+    - Output: `[1, 4, 9, 16]`
+
+17. **Write a Python function that accepts a number and returns a list of its divisors.**
+    - Input: `12`
+    - Output: `[1, 2, 3, 4, 6, 12]`
+
+18. **Write a Python function that checks if a given string is a valid email address.**
+    - Input: `'test@example.com'`
+    - Output: `True`
+
+19. **Write a Python function that removes all the duplicate elements from a list.**
+    - Input: `[1, 2, 2, 3, 4, 4, 5]`
+    - Output: `[1, 2, 3, 4, 5]`
+
+20. **Write a Python function that accepts a number and returns its square root.**
+    - Input: `16`
+    - Output: `4.0`
+
+21. **Write a Python function that accepts a string and returns the string with all vowels removed.**
+    - Input: `'hello world'`
+    - Output: `'hll wrld'`
+
+22. **Write a Python function that accepts two lists of integers and returns a list containing the elements that are common in both lists.**
+    - Input: `[1, 2, 3, 4]`, `[3, 4, 5, 6]`
+    - Output: `[3, 4]`
+
+23. **Write a Python function that checks if a list is sorted in ascending order.**
+    - Input: `[1, 2, 3, 4, 5]`
+    - Output: `True`
+
+24. **Write a Python function that accepts a list of numbers and returns the product of all numbers in the list.**
+    - Input: `[1, 2, 3, 4]`
+    - Output: `24`
+
+25. **Write a Python function that accepts a list and returns the most frequent element in the list.**
+    - Input: `[1, 2, 3, 1, 2, 1]`
+    - Output: `1`
+
+26. **Write a Python function that accepts a list of numbers and returns the average of the numbers.**
+    - Input: `[1, 2, 3, 4, 5]`
+    - Output: `3.0`
+
+27. **Write a Python function that accepts a string and returns the string in uppercase.**
+    - Input: `'hello'`
+    - Output: `'HELLO'`
+
+28. **Write a Python function that checks if a number is a perfect square.**
+    - Input: `16`
+    - Output: `True`
+
+29. **Write a Python function that accepts a list of strings and returns the string with the most vowels.**
+    - Input: `['hello', 'world', 'python', 'programming']`
+    - Output: `'programming'`
+
+30. **Write a Python function that returns the nth number in the Fibonacci sequence.**
+    - Input: `5`
+    - Output: `5`
+
+31. **Write a Python function that checks if the frequency of each character in a string is even. If any character has an odd frequency, print 'Not Even' else print 'All Even'.**
+    - Input: `'aabbccdd'`
+    - Output: `'All Even'`
+
+32. **Write a Python function that checks if all elements of a list are strings and contain only alphabetical characters.**
+    - Input: `['hello', 'world', '123']`
+    - Output: `False`
+
+33. **Write a Python function to combine two dictionaries by adding values for common keys and keeping values from both for unique keys.**
+    - Input: `{'a': 1, 'b': 2}`, `{'b': 3, 'c': 4}`
+    - Output: `{'a': 1, 'b': 5, 'c': 4}`
+
+34. **Write a Python function to check if a list of strings is a valid list of email addresses.**
+    - Input: `['test@example.com', 'invalid@.com']`
+    - Output: `False`
+
+35. **Write a Python function to remove all strings from a list that contain digits.**
+    - Input: `['hello', 'world123', 'abc456', 'python']`
+    - Output: `['hello', 'python']`
+
+36. **Write a Python function that returns the first non-repeating character from a string.**
+    - Input: `'aabbcdd'`
+    - Output: `'c'`
+
+37. **Write a Python function that checks if a given list contains any duplicates.**
+    - Input: `[1, 2, 3, 4, 5]`
+    - Output: `False`
+
+38. **Write a Python function that takes a list of strings and returns a list with the strings in reverse order.**
+    - Input: `['apple', 'banana', 'cherry']`
+    - Output: `['cherry', 'banana', 'apple']`
+
+39. **Write a Python function that accepts a list of integers and returns the second smallest number.**
+    - Input: `[10, 20, 30, 40, 50]`
+    - Output: `20`
+
+40. **Write a Python function that accepts two lists and returns a list of elements that are present in either of the lists.**
+    - Input: `[1, 2, 3]`, `[3, 4, 5]`
+    - Output: `[1, 2, 3, 4, 5]`
+
+---
+
+=====================================================================================================
+=====================================================================================================
+Here are some practical interview questions related to the `map()` and `filter()` functions in Python:
+
+---
+
+### **Map Function Questions**
+
+1. **Write a Python program that uses the `map()` function to square each number in a given list of integers.**
+    - Input: `[1, 2, 3, 4]`
+    - Output: `[1, 4, 9, 16]`
+
+2. **Write a Python program that uses `map()` to convert a list of strings to uppercase.**
+    - Input: `['apple', 'banana', 'cherry']`
+    - Output: `['APPLE', 'BANANA', 'CHERRY']`
+
+3. **Write a Python program that uses `map()` to find the length of each string in a list of strings.**
+    - Input: `['hello', 'world', 'python']`
+    - Output: `[5, 5, 6]`
+
+4. **Write a Python program that uses `map()` to add a given number to each element in a list.**
+    - Input: `[1, 2, 3, 4]`, `5`
+    - Output: `[6, 7, 8, 9]`
+
+5. **Write a Python program that uses `map()` to apply a function that converts a list of temperature values in Celsius to Fahrenheit.**
+    - Input: `[0, 25, 100]`
+    - Output: `[32.0, 77.0, 212.0]`
+    - (Hint: Use the formula `F = C * 9/5 + 32`)
+
+6. **Write a Python program that uses `map()` to create a new list where each number is doubled, but only for even numbers in the input list.**
+    - Input: `[1, 2, 3, 4, 5]`
+    - Output: `[2, 4, 6, 8, 10]`
+
+7. **Write a Python program that uses `map()` to convert a list of integers into their binary equivalents (strings).**
+    - Input: `[1, 2, 3, 4]`
+    - Output: `['1', '10', '11', '100']`
+
+8. **Write a Python program that uses `map()` to round a list of floating-point numbers to 2 decimal places.**
+    - Input: `[3.1415, 2.7182, 1.6180]`
+    - Output: `[3.14, 2.72, 1.62]`
+
+9. **Write a Python program that uses `map()` to apply a lambda function that checks if each number in a list is even.**
+    - Input: `[1, 2, 3, 4, 5]`
+    - Output: `[False, True, False, True, False]`
+
+10. **Write a Python program that uses `map()` to find the sum of corresponding elements from two lists.**
+    - Input: `[1, 2, 3]`, `[4, 5, 6]`
+    - Output: `[5, 7, 9]`
+
+---
+
+### **Filter Function Questions**
+
+11. **Write a Python program that uses `filter()` to return only the even numbers from a list.**
+    - Input: `[1, 2, 3, 4, 5, 6]`
+    - Output: `[2, 4, 6]`
+
+12. **Write a Python program that uses `filter()` to get all strings with a length greater than 5 from a list of strings.**
+    - Input: `['apple', 'banana', 'cherry', 'kiwi', 'orange']`
+    - Output: `['banana', 'cherry', 'orange']`
+
+13. **Write a Python program that uses `filter()` to return all numbers from a list that are divisible by both 2 and 3.**
+    - Input: `[1, 2, 3, 6, 8, 12, 18, 24]`
+    - Output: `[6, 12, 18, 24]`
+
+14. **Write a Python program that uses `filter()` to return a list of positive numbers from a given list of integers.**
+    - Input: `[-5, 2, 3, -1, 4, -2]`
+    - Output: `[2, 3, 4]`
+
+15. **Write a Python program that uses `filter()` to remove all strings that contain digits from a list.**
+    - Input: `['hello', 'world123', 'abc456', 'python']`
+    - Output: `['hello', 'python']`
+
+16. **Write a Python program that uses `filter()` to return all names starting with the letter 'a' from a list of names.**
+    - Input: `['alice', 'bob', 'ann', 'john', 'alex']`
+    - Output: `['alice', 'ann', 'alex']`
+
+17. **Write a Python program that uses `filter()` to return all elements of a list that are greater than a given threshold number.**
+    - Input: `[10, 20, 30, 40, 50]`, `25`
+    - Output: `[30, 40, 50]`
+
+18. **Write a Python program that uses `filter()` to return all numbers that are greater than 10 but less than or equal to 50 from a list.**
+    - Input: `[5, 10, 15, 20, 50, 60]`
+    - Output: `[15, 20, 50]`
+
+19. **Write a Python program that uses `filter()` to return all strings that are palindromes from a list of strings.**
+    - Input: `['madam', 'level', 'world', 'python', 'civic']`
+    - Output: `['madam', 'level', 'civic']`
+
+20. **Write a Python program that uses `filter()` to return all words from a list of strings that contain the letter 'e'.**
+    - Input: `['apple', 'banana', 'cherry', 'kiwi', 'orange']`
+    - Output: `['apple', 'cherry', 'orange']`
+
+---
+
+### **Combined Map and Filter Questions**
+
+21. **Write a Python program that uses `map()` to square each element of a list and then uses `filter()` to return only those squares that are even numbers.**
+    - Input: `[1, 2, 3, 4, 5]`
+    - Output: `[4, 16]`
+
+22. **Write a Python program that uses `map()` to convert all strings in a list to uppercase and then uses `filter()` to return only the strings that contain more than 4 characters.**
+    - Input: `['hello', 'world', 'python', 'is', 'great']`
+    - Output: `['HELLO', 'WORLD', 'PYTHON', 'GREAT']`
+
+23. **Write a Python program that uses `map()` to multiply each element in a list by 2, and then uses `filter()` to return only the elements greater than 10.**
+    - Input: `[1, 3, 5, 7]`
+    - Output: `[14]`
+
+24. **Write a Python program that uses `map()` to create a list of the first letters of each string and then uses `filter()` to return only the strings starting with the letter 'p'.**
+    - Input: `['python', 'java', 'php', 'javascript']`
+    - Output: `['python', 'php']`
+
+25. **Write a Python program that uses `map()` to calculate the cube of each number in a list and then uses `filter()` to return the cubes that are greater than 100.**
+    - Input: `[2, 3, 4, 5]`
+    - Output: `[125]`
+
+=====================================================================================================
+=====================================================================================================
+Here are practical interview task questions based on Python modules, which test the candidate's ability to work with Python's built-in modules and how to create and import custom modules.
+
+---
+
+### **Built-in Modules Questions**
+
+1. **Write a Python program that uses the `math` module to calculate the area of a circle given its radius.**
+    - Input: `radius = 5`
+    - Output: `Area = 78.5398` (Use `math.pi` for the value of π)
+
+2. **Write a Python program that uses the `datetime` module to get the current date and time and prints it in the format `YYYY-MM-DD HH:MM:SS`.**
+    - Output: `2024-11-30 14:45:30`
+
+3. **Write a Python program that uses the `os` module to check if a specific file exists in the current directory. If it does, print the file name; otherwise, print "File not found".**
+    - Input: `file_name = 'test.txt'`
+    - Output: `File found: test.txt` (or "File not found" if the file doesn't exist)
+
+4. **Write a Python program that uses the `random` module to generate a random integer between 1 and 100.**
+    - Output: `67` (output will vary)
+
+5. **Write a Python program that uses the `math` module to find the greatest common divisor (GCD) of two numbers.**
+    - Input: `12, 18`
+    - Output: `6`
+
+6. **Write a Python program that uses the `re` module to check if a given email address is in a valid format (e.g., `username@domain.com`).**
+    - Input: `email = "test@example.com"`
+    - Output: `Valid email`
+
+7. **Write a Python program that uses the `json` module to parse a JSON string into a Python dictionary.**
+    - Input: `json_string = '{"name": "John", "age": 30, "city": "New York"}'`
+    - Output: `{'name': 'John', 'age': 30, 'city': 'New York'}`
+
+8. **Write a Python program that uses the `sys` module to display the Python version and path where Python is installed.**
+    - Output: `Python version: 3.10.1`, `Python path: /usr/bin/python3`
+
+9. **Write a Python program that uses the `os` module to create a new directory called `test_directory` in the current working directory.**
+    - Output: `Directory 'test_directory' created successfully`
+
+10. **Write a Python program that uses the `collections` module to count the frequency of each word in a given sentence.**
+    - Input: `'hello world hello everyone'`
+    - Output: `{'hello': 2, 'world': 1, 'everyone': 1}`
+
+---
+
+### **Custom Modules Questions**
+
+11. **Create a Python module `math_operations.py` that contains the following functions:**
+    - `add(a, b)`: Returns the sum of `a` and `b`.
+    - `subtract(a, b)`: Returns the difference of `a` and `b`.
+    - Write a separate Python script that imports this module and calls both functions with example inputs.
+    - Input: `add(5, 3)`, `subtract(9, 4)`
+    - Output: `8`, `5`
+
+12. **Write a Python module `string_utils.py` that contains the following functions:**
+    - `capitalize_first(s)`: Capitalizes the first letter of the string `s`.
+    - `reverse_string(s)`: Reverses the string `s`.
+    - Write a separate Python script that imports this module and calls both functions.
+    - Input: `capitalize_first('hello')`, `reverse_string('world')`
+    - Output: `'Hello'`, `'dlrow'`
+
+13. **Create a Python module `file_operations.py` that contains the following functions:**
+    - `write_to_file(filename, content)`: Writes `content` to a file named `filename`.
+    - `read_from_file(filename)`: Reads and returns the content of a file named `filename`.
+    - Write a script that uses this module to write to a file and then read from it.
+    - Input: `write_to_file('test.txt', 'Hello, World!')`, `read_from_file('test.txt')`
+    - Output: `'Hello, World!'`
+
+14. **Create a Python module `user_validation.py` that contains the following function:**
+    - `is_valid_username(username)`: Checks if a username is valid (only letters and numbers, at least 5 characters long).
+    - Write a script that imports this module and checks the validity of a username.
+    - Input: `is_valid_username('john_doe')`
+    - Output: `False` (since `_` is not allowed in the username)
+
+15. **Write a Python module `data_processing.py` with the following function:**
+    - `average(numbers)`: Returns the average of a list of numbers.
+    - Write a script that imports this module, calculates the average of a list of numbers, and prints the result.
+    - Input: `[10, 20, 30, 40]`
+    - Output: `25.0`
+
+---
+
+### **Working with Third-party Modules Questions**
+
+16. **Write a Python program that uses the `requests` module to fetch the content of a webpage and print the status code of the response.**
+    - Input: `url = 'https://www.example.com'`
+    - Output: `200` (or another status code depending on the URL)
+
+17. **Write a Python program that uses the `pandas` module to load a CSV file into a DataFrame and print the first 5 rows.**
+    - Input: `filename = 'data.csv'`
+    - Output: (Displays the first 5 rows of the DataFrame)
+
+18. **Write a Python program that uses the `matplotlib` module to plot a simple line chart using the data from two lists:**
+    - Input: `x = [1, 2, 3, 4]`, `y = [10, 20, 25, 40]`
+    - Output: A line chart with `x` values on the x-axis and `y` values on the y-axis.
+
+19. **Write a Python program that uses the `beautifulsoup4` module to scrape all the links from a given webpage and print them.**
+    - Input: `url = 'https://www.example.com'`
+    - Output: (List of all links found on the page)
+
+20. **Write a Python program that uses the `sqlite3` module to connect to a database, create a table, and insert some data.**
+    - Input: `table_name = 'users'`, `data = {'name': 'Alice', 'age': 25}`
+    - Output: (Table is created, and data is inserted)
+
+---
+
+### **Package Management and Module Importing**
+
+21. **Write a Python program that demonstrates how to install a package (e.g., `requests`) using `pip` and use it to fetch the content of a webpage.**
+    - Output: `200` (or another status code depending on the URL)
+
+22. **Write a Python program that demonstrates how to create a package with multiple modules (e.g., `math_operations`, `string_operations`) and show how to import them in another script.**
+
+23. **Write a Python program that demonstrates how to import specific functions from a module and call them.**
+    - Input: `from math_operations import add`, `add(5, 3)`
+    - Output: `8`
+
+24. **Write a Python program that demonstrates how to import all functions from a module.**
+    - Input: `from string_utils import *`, `capitalize_first('hello')`
+    - Output: `'Hello'`
+
+25. **Write a Python program that demonstrates how to use the `__name__` variable to check if a module is being run as a script or being imported.**
+
+=====================================================================================================
+=====================================================================================================
+
+### **Basic File Handling**
+
+1. **Write a Python program that creates a new text file and writes the following content into it: "Hello, world!"**
+    - Output: A file named `hello.txt` containing the text `Hello, world!`
+
+2. **Write a Python program that opens an existing text file and reads its contents line by line.**
+    - Input: A file named `data.txt` with multiple lines of text.
+    - Output: Prints each line of the file.
+
+3. **Write a Python program that reads a file and counts how many lines it contains.**
+    - Input: A file named `text.txt`.
+    - Output: The total number of lines in the file.
+
+4. **Write a Python program that appends new content to an existing file.**
+    - Input: A file named `log.txt` with some text, and new content `New log entry`.
+    - Output: The content `New log entry` should be added at the end of `log.txt`.
+
+5. **Write a Python program that reads the content of a file and prints each word in reverse order.**
+    - Input: A file named `words.txt` containing words like `hello world python`.
+    - Output: `python world hello`
+
+---
+
+### **Advanced File Handling**
+
+6. **Write a Python program that reads a CSV file and prints the values of the first column for all rows.**
+    - Input: A CSV file `data.csv` with multiple rows and columns.
+    - Output: The values of the first column from all rows in the file.
+
+7. **Write a Python program that reads a file and replaces all occurrences of the word "old" with "new".**
+    - Input: A file named `text.txt` containing several occurrences of the word `old`.
+    - Output: The file should have the word `old` replaced with `new`.
+
+8. **Write a Python program that checks if a file exists in the specified path. If it exists, print its content; if it does not exist, print a "File not found" message.**
+    - Input: `filename = 'data.txt'`
+    - Output: Either the content of the file or "File not found."
+
+9. **Write a Python program that copies the content of one file to another.**
+    - Input: `source_file = 'source.txt'`, `destination_file = 'destination.txt'`
+    - Output: `destination.txt` contains the same content as `source.txt`.
+
+10. **Write a Python program that reads a file and counts the number of occurrences of a specific word.**
+    - Input: `filename = 'text.txt'`, `word = 'python'`
+    - Output: The number of times `python` appears in the file.
+
+---
+
+### **File Handling with JSON**
+
+11. **Write a Python program that reads a JSON file and prints all the values in a dictionary format.**
+    - Input: A JSON file `data.json` with a structure like `{"name": "John", "age": 30, "city": "New York"}`
+    - Output: `{'name': 'John', 'age': 30, 'city': 'New York'}`
+
+12. **Write a Python program that writes a Python dictionary to a JSON file.**
+    - Input: `data = {"name": "Alice", "age": 25, "city": "Paris"}`
+    - Output: A JSON file `data.json` containing the above data.
+
+13. **Write a Python program that reads a JSON file and updates a value for a specific key.**
+    - Input: A JSON file `data.json` containing `{"name": "Alice", "age": 25, "city": "Paris"}`, update age to 26.
+    - Output: The updated JSON data should reflect `{"name": "Alice", "age": 26, "city": "Paris"}`.
+
+14. **Write a Python program that reads a JSON file, adds a new key-value pair, and writes the updated data back to the file.**
+    - Input: A JSON file `data.json` and a new key-value pair `{"email": "alice@example.com"}`.
+    - Output: The updated JSON file should contain the new key-value pair.
+
+---
+
+### **File Handling with CSV**
+
+15. **Write a Python program that reads a CSV file and returns the average of values in a particular column (e.g., column `2`).**
+    - Input: A CSV file `data.csv` with several rows and numeric values in column `2`.
+    - Output: The average of the numbers in column `2`.
+
+16. **Write a Python program that reads a CSV file and converts it into a dictionary.**
+    - Input: A CSV file `data.csv` with headers like `name, age, city`.
+    - Output: A dictionary like `{'name': 'John', 'age': '30', 'city': 'New York'}`.
+
+17. **Write a Python program that creates a CSV file from a list of dictionaries.**
+    - Input: A list of dictionaries `data = [{'name': 'Alice', 'age': 25}, {'name': 'Bob', 'age': 30}]`
+    - Output: A CSV file `data.csv` with columns `name, age` and corresponding values.
+
+18. **Write a Python program that reads a CSV file, filters out rows that contain specific values, and writes the remaining data to a new CSV file.**
+    - Input: A CSV file `data.csv` where you need to filter out rows where the age is less than 30.
+    - Output: A new CSV file `filtered_data.csv` with rows that have `age >= 30`.
+
+---
+
+### **File Handling with Context Manager**
+
+19. **Write a Python program that uses a context manager (`with` statement) to read from a file and print its content.**
+    - Input: A file `data.txt`
+    - Output: The content of `data.txt` should be printed without explicitly calling `open()` and `close()`.
+
+20. **Write a Python program that uses a context manager to write multiple lines to a file, one at a time.**
+    - Input: `lines = ['First line', 'Second line', 'Third line']`
+    - Output: The file `output.txt` should contain the three lines.
+
+21. **Write a Python program that uses a context manager to append text to a file.**
+    - Input: Text to append: `"Appended text"`
+    - Output: The new text is appended to the file `log.txt` without overwriting its existing content.
+
+---
+
+### **Handling Large Files**
+
+22. **Write a Python program that reads a large text file and counts the number of occurrences of a word without loading the entire file into memory at once.**
+    - Input: `filename = 'large_text.txt'`, `word = 'python'`
+    - Output: The count of how many times `python` appears in the file.
+
+23. **Write a Python program that reads a file in chunks and processes it, to avoid memory overload.**
+    - Input: A large file `large_file.txt`
+    - Output: Each chunk of the file is processed (e.g., counting lines or words in each chunk).
+
+---
+
+### **Error Handling in File Operations**
+
+24. **Write a Python program that opens a file for reading and handles the `FileNotFoundError` if the file does not exist.**
+    - Input: `filename = 'missing.txt'`
+    - Output: An error message "File not found" if the file does not exist.
+
+25. **Write a Python program that handles both `FileNotFoundError` and `PermissionError` while trying to read a file.**
+    - Input: `filename = 'protected_file.txt'`
+    - Output: An error message depending on the issue (`File not found` or `Permission denied`).
+
+26. **Write a Python program that uses error handling to write to a file and prints an appropriate message if the file is open-only or read-only.**
+    - Input: `filename = 'readonly.txt'`
+    - Output: A message indicating that the file is read-only.
+
+=====================================================================================================
+=====================================================================================================
+
+
+### 1. **File Not Found Handling**
+   **Scenario:** You are trying to read a file `data.txt` in your program. If the file doesn’t exist, you need to handle the error gracefully.
+   - **Task:** Write a program that attempts to open `data.txt` for reading. If the file is not found, print a message saying `"File not found"`. 
+
+### 2. **Permission Denied Handling**
+   **Scenario:** You need to write data to a file `logfile.txt`, but the file is write-protected.
+   - **Task:** Write a program that attempts to write to `logfile.txt`. If permission is denied, catch the exception and print `"Permission denied to write to the file"`.
+
+### 3. **Division by Zero**
+   **Scenario:** You are performing arithmetic division in your program. The user inputs two numbers, and you want to divide them. If the user attempts to divide by zero, handle the exception.
+   - **Task:** Write a Python program that takes two numbers as input from the user and attempts to divide them. If the divisor is zero, print `"Cannot divide by zero!"`.
+
+### 4. **Index Out of Range**
+   **Scenario:** You are working with a list, and you need to access an element using a user-provided index. If the index is out of bounds, you should catch the exception.
+   - **Task:** Write a program that creates a list `[1, 2, 3, 4]` and attempts to print the element at a user-provided index. If the index is invalid, catch the `IndexError` and print `"Index out of range"`.
+
+### 5. **Invalid Integer Input**
+   **Scenario:** You are trying to convert user input into an integer. The user might input a non-integer string, causing a `ValueError`.
+   - **Task:** Write a Python program that takes input from the user and attempts to convert it into an integer. If the input is not a valid integer, catch the exception and print `"Invalid input! Please enter a valid integer"`.
+
+### 6. **Multiple Exception Handling**
+   **Scenario:** You are processing both user input and file operations. You need to handle multiple types of exceptions like `ValueError` and `FileNotFoundError`.
+   - **Task:** Write a program that asks the user for a number and attempts to read from a file whose name is also provided by the user. Handle `ValueError` for invalid numbers and `FileNotFoundError` if the file does not exist.
+
+### 7. **Custom Exception Handling**
+   **Scenario:** You are developing an application that requires custom error messages for invalid user inputs.
+   - **Task:** Define a custom exception class `InvalidAgeError` and use it in a program where the user enters an age. Raise the exception if the age is negative or too large (e.g., over 150).
+
+### 8. **Resource Cleanup**
+   **Scenario:** You are reading data from a file and need to ensure the file is properly closed even if an exception occurs during reading.
+   - **Task:** Write a program that opens a file `data.csv` for reading and ensures it is closed, regardless of whether an exception occurs during the reading process.
+
+### 9. **Handling ZeroDivisionError and TypeError Together**
+   **Scenario:** You are performing a division operation, but the user may provide invalid input that could either raise a `ZeroDivisionError` or `TypeError`.
+   - **Task:** Write a Python program where the user inputs two numbers for division. Handle both `ZeroDivisionError` (when the divisor is zero) and `TypeError` (if the user inputs non-numeric values).
+
+### 10. **Handling File Errors and Logging**
+   **Scenario:** You are working with file operations and need to log any errors that occur during file reading or writing.
+   - **Task:** Write a Python program that attempts to open a file for reading. If there is an error (e.g., `FileNotFoundError` or `PermissionError`), log the error message to a log file `error.log`.
+
+### 11. **Suppressing Specific Exceptions**
+   **Scenario:** You need to suppress specific exceptions (like `FileNotFoundError`) and allow others to propagate.
+   - **Task:** Write a program that attempts to open a file for reading. If a `FileNotFoundError` occurs, suppress it, but raise other exceptions.
+
+### 12. **Catching Multiple Exception Types**
+   **Scenario:** You are performing multiple actions, such as parsing a number and dividing it. You want to catch both `ValueError` (invalid number) and `ZeroDivisionError` (division by zero).
+   - **Task:** Write a Python program that takes a user input, converts it to an integer, and divides it by a second input. Catch both `ValueError` and `ZeroDivisionError` exceptions.
+
+### 13. **Handling Database Connection Errors**
+   **Scenario:** Your application connects to a database, but there could be a `ConnectionError` or `TimeoutError` if the database server is unavailable.
+   - **Task:** Write a program that attempts to connect to a database. If a connection error or timeout occurs, print an appropriate error message.
+
+### 14. **Handling Nested Exception Blocks**
+   **Scenario:** You have nested function calls, and you want to catch exceptions raised in both the outer and inner functions.
+   - **Task:** Write a Python program with two functions: one that raises a `ValueError` and another that calls the first function. Handle the exception raised in both functions.
+
+### 15. **Handling KeyboardInterrupt Gracefully**
+   **Scenario:** You are running a long-running Python program, and the user might want to stop the execution using `Ctrl+C`.
+   - **Task:** Write a Python program that continuously prompts the user for input and handles a `KeyboardInterrupt` gracefully by printing a message `"Operation interrupted by user"`.
+
+=====================================================================================================
+=====================================================================================================
